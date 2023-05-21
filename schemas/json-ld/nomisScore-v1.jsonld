@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "NomisScore": {
+        "@id": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json-ld/nomisScore-v1.jsonld#NomisScore",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "nomis-score-vocab": "https://github.com/Nomis-cc/nomis-iden3/blob/main/credentials/NomisScore.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "score": {
+            "@id": "nomis-score-vocab:score",
+            "@type": "xsd:integer"
+          },
+          "calculationModel": {
+            "@id": "nomis-score-vocab:calculationModel",
+            "@type": "xsd:integer"
+          },
+          "mintChain": {
+            "@id": "nomis-score-vocab:mintChain",
+            "@type": "xsd:integer"
+          },
+          "scoreType": {
+            "@id": "nomis-score-vocab:scoreType",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
