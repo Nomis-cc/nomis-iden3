@@ -3,7 +3,7 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json-ld/nomisScore-v1.jsonld",
+      "jsonLdContext": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json-ld/nomisScore-v1.json-ld",
       "jsonSchema": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json/nomisScore-v1.json"
     }
   },

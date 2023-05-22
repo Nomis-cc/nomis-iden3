@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "NomisScore": {
-        "@id": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json-ld/nomisScore-v1.jsonld#NomisScore",
+        "@id": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json-ld/nomisScore-v1.json-ld#NomisScore",
         "@context": {
           "@version": 1.1,
           "@protected": true,
