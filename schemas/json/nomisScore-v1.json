@@ -129,6 +129,13 @@
 		  "title": "Blockchain in which the score will be minted",
           "type": "integer"
         },
+        "multichainBlockchains": {
+		  "title": "Blockchains in which the score will be calculated for multichain score",
+          "type": [
+			"string",
+			"null"
+		  ]
+        },
         "scoreType": {
 		  "title": "The Score type",
           "type": "integer"

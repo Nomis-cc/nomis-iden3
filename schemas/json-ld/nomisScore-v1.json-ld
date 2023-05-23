@@ -26,6 +26,10 @@
             "@id": "nomis-score-vocab:mintChain",
             "@type": "xsd:integer"
           },
+          "multichainBlockchains": {
+            "@id": "nomis-score-vocab:multichainBlockchains",
+            "@type": "xsd:string"
+          },
           "scoreType": {
             "@id": "nomis-score-vocab:scoreType",
             "@type": "xsd:integer"
