@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "NomisScore": {
-        "@id": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/update/add-stats/schemas/json-ld/nomisScore-v1.json-ld#NomisScore",
+        "@id": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json-ld/nomisScore-v1.json-ld#NomisScore",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "nomis-score-vocab": "https://github.com/Nomis-cc/nomis-iden3/blob/update/add-stats/credentials/NomisScore.md#",
+          "nomis-score-vocab": "https://github.com/Nomis-cc/nomis-iden3/blob/main/credentials/NomisScore.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "score": {
             "@id": "nomis-score-vocab:score",
@@ -37,13 +37,13 @@
         }
       },
       "NomisStats": {
-        "@id": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/update/add-stats/schemas/json-ld/nomisScore-v1.json-ld#NomisStats",
+        "@id": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json-ld/nomisScore-v1.json-ld#NomisStats",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "nomis-score-vocab": "https://github.com/Nomis-cc/nomis-iden3/blob/update/add-stats/credentials/NomisStats.md#",
+          "nomis-score-vocab": "https://github.com/Nomis-cc/nomis-iden3/blob/main/credentials/NomisStats.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "key": {
             "@id": "nomis-score-vocab:key",
