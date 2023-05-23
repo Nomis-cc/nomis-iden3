@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json-ld/nomisScore-v1.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/main/schemas/json/nomisScore-v1.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/update/add-stats/schemas/json-ld/nomisScore-v1.json-ld",
+      "jsonSchema": "https://raw.githubusercontent.com/Nomis-cc/nomis-iden3/update/add-stats/schemas/json/nomisScore-v1.json"
     }
   },
   "required": [
@@ -132,7 +132,15 @@
         "scoreType": {
 		  "title": "The Score type",
           "type": "integer"
-        }
+        },
+		"stats": {
+		  "title": "Wallet stats",
+		  "type": [
+			"object",
+			"null"
+		  ],
+		  "additionalProperties": {}
+		}
       }
     }
   }
