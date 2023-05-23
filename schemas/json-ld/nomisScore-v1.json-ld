@@ -30,6 +30,10 @@
             "@id": "nomis-score-vocab:scoreType",
             "@type": "xsd:integer"
           },
+          "scoredChain": {
+            "@id": "nomis-score-vocab:scoredChain",
+            "@type": "xsd:integer"
+          },
           "stats": {
             "@id": "nomis-score-vocab:stats",
             "@type": "@json"

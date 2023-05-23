@@ -133,6 +133,10 @@
 		  "title": "The Score type",
           "type": "integer"
         },
+        "scoredChain": {
+		  "title": "Blockchain in which the score will be calculated",
+          "type": "integer"
+        },
 		"stats": {
 		  "title": "Wallet stats",
 		  "type": [
