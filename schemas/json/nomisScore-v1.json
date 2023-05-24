@@ -126,11 +126,11 @@
           "type": "integer"
         },
         "mintChain": {
-          "title": "Blockchain in which the score will be minted",
+          "title": "Blockchain in which the score is minted",
           "type": "integer"
         },
         "multichainBlockchains": {
-          "title": "Blockchains in which the score will be calculated for multichain score",
+          "title": "Blockchains in which the score is calculated for multichain score",
           "type": [
             "string",
             "null"
@@ -141,7 +141,7 @@
           "type": "integer"
         },
         "scoredChain": {
-          "title": "Blockchain in which the score will be calculated",
+          "title": "Blockchain in which the score is calculated",
           "type": "integer"
         },
         "stats": {
