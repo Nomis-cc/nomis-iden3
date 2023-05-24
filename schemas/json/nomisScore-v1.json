@@ -108,8 +108,8 @@
         "id",
         "score",
         "calculationModel",
-		"mintChain",
-		"scoreType"
+        "mintChain",
+        "scoreType"
       ],
       "properties": {
         "id": {
@@ -118,40 +118,40 @@
           "format": "uri"
         },
         "score": {
-		  "title": "The Nomis Score value",
+          "title": "The Nomis Score value",
           "type": "integer"
         },
         "calculationModel": {
-		  "title": "Scoring calculation model",
+          "title": "Scoring calculation model",
           "type": "integer"
         },
         "mintChain": {
-		  "title": "Blockchain in which the score will be minted",
+          "title": "Blockchain in which the score will be minted",
           "type": "integer"
         },
         "multichainBlockchains": {
-		  "title": "Blockchains in which the score will be calculated for multichain score",
+          "title": "Blockchains in which the score will be calculated for multichain score",
           "type": [
-			"string",
-			"null"
-		  ]
+            "string",
+            "null"
+          ]
         },
         "scoreType": {
-		  "title": "The Score type",
+          "title": "The Score type",
           "type": "integer"
         },
         "scoredChain": {
-		  "title": "Blockchain in which the score will be calculated",
+          "title": "Blockchain in which the score will be calculated",
           "type": "integer"
         },
-		"stats": {
-		  "title": "Wallet stats",
-		  "type": [
-			"object",
-			"null"
-		  ],
-		  "additionalProperties": {}
-		}
+        "stats": {
+          "title": "Wallet stats",
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": {}
+        }
       }
     }
   }
